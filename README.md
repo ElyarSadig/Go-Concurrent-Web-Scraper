@@ -2,7 +2,7 @@
 This is a simple web scraper built in Go that retrieves product information from a website concurrently using Goroutines and channels. The scraper uses the popular gocolly library for HTML parsing and a concurrent design to speed up the data collection process.
 
 ## How It Works
-The scraper collects product information from a [website](https://scrapeme.live/shop/) that lists pokemonproducts products on multiple pages. It concurrently visits each page, extracts relevant product data, and stores it in a slice of PokemonProduct structs. The collected data is then written to a CSV file using another Goroutine, ensuring concurrent writing and efficient data handling.
+The scraper collects product information from a [website](https://scrapeme.live/shop/) that lists pokemon products on multiple pages. It concurrently visits each page, extracts relevant product data, and stores it in a slice of PokemonProduct structs. The collected data is then written to a CSV file using another Goroutine, ensuring concurrent writing and efficient data handling.
 
 ## Installation
 1. Make sure you have Go installed. If not, you can download and install it from the [official website](https://go.dev/).
